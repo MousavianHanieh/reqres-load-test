@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1766041678701,3176, Login,200,OK,Thread Group 1-1,text,true,,1575,293,2,2,https://reqres.in/api/login,3169,0,2921
+1766041681902,311,Get User Info,200,OK,Thread Group 1-1,text,true,,2478,163,2,2,https://reqres.in/api/users/2,311,0,0
+1766041684667,488, Login,200,OK,Thread Group 1-4,text,true,,1575,293,3,3,https://reqres.in/api/login,488,0,270
+1766041685156,182,Get User Info,200,OK,Thread Group 1-4,text,true,,2478,163,3,3,https://reqres.in/api/users/2,182,0,0
+1766041686665,687, Login,200,OK,Thread Group 1-5,text,true,,1583,293,3,3,https://reqres.in/api/login,687,0,418
+1766041687353,177,Get User Info,200,OK,Thread Group 1-5,text,true,,2486,163,3,3,https://reqres.in/api/users/2,177,0,0
+1766041680670,13590, Login,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-2,text,false,Expected to find an object with property ['token'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,3141,0,2,2,https://reqres.in/api/login,0,0,13590
+1766041694262,15378,Get User Info,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-2,text,false,,3141,0,2,2,https://reqres.in/api/users/2,0,0,15378
+1766041682671,30091, Login,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Thread Group 1-3,text,false,Expected to find an object with property ['token'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,3141,0,1,1,https://reqres.in/api/login,0,0,30091
+1766041712765,523,Get User Info,200,OK,Thread Group 1-3,text,true,,2490,155,1,1,https://reqres.in/api/users/2,523,0,315
