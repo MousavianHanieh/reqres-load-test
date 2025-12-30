@@ -4,7 +4,8 @@ This project demonstrates basic API testing using **Apache JMeter** with a chain
 
 
 ## Live JMeter Report
-🔗 [View Live Report](https://mousavianhanieh.github.io/JMeter-LoadTest-Login/report/)
+🔗 [View Live Report](https://mousavianhanieh.github.io/JMeter-LoadTest-Login/
+)
 
 
 
